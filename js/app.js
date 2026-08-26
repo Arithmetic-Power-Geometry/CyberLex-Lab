@@ -299,7 +299,7 @@ function home(){
  <p>
    <b>Dr. Mohammad Amir Khusru Akhtar</b><br>
    Faculty of Computing & Information Technology<br>
-   Usha Martin University
+   Usha Martin University, Ranchi
  </p>
 
  <p class="tiny">
