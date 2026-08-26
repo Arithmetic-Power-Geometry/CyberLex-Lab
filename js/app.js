@@ -76,7 +76,7 @@ function renderScenario(m){
    html=`<div class="hero"><div class="kicker">CYBERLEX LAB</div><h1>Your Digital Life Is Now a Case File.</h1><h2>6 Investigation Zones • 33 Missions • 1 Final Cyber Mystery</h2>
    <p>Every incident is simulated. Every decision has a consequence.</p>
    <div class="card"><p><b>Cyber Law</b> deals with rights, responsibilities and legal consequences in the digital world.</p><h2>Does <span style="color:var(--cyan)">CAN</span> mean <span style="color:var(--amber)">MAY</span>?</h2>
-   <p><b>Dr. Mohammad Amir Khusru Akhtar</b><br>Faculty of Computing & Information Technology<br>Usha Martin University</p></div>
+   <p><b>Dr. Mohammad Amir Khusru Akhtar</b><br>Faculty of Computing & Information Technology<br>Usha Martin University, Ranchi</p></div>
    <div class="formrow"><label class="field">Student name<input id="studentName" value="${state.name||""}" placeholder="Your name"></label><label class="field">Roll no. (optional)<input id="roll" value="${state.roll||""}" placeholder="Optional"></label></div>
    <div class="actions"><button class="btn primary" id="startIntro">ENTER MISSION CONTROL</button></div>
    <p class="tiny">⚠ Training environment: synthetic accounts, URLs, logs, payments and evidence only. No real system is attacked.</p></div>`;
