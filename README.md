@@ -91,6 +91,10 @@ Documentation/test IP ranges and `.example` domains are used for simulation.
 
 Student progress is stored in browser `localStorage` on that device. No central backend receives it. Students can export a JSON result report.
 
+## Citation
+
+Akhtar, M. A. K. (2026). CyberLex Lab: Interactive Cyber Law, Security & Digital Evidence Simulator (Version V1). Zenodo. https://doi.org/10.5281/zenodo.22113998
+
 ## Legal-content note
 
 CyberLex Lab teaches principles and careful reasoning rather than assigning automatic criminal guilt from short scenarios. Exact legal outcomes depend on facts, current law, jurisdiction and competent authorities. Official reporting references should be periodically verified against Government of India sources.
