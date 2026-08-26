@@ -1,0 +1,50 @@
+{
+  "names": [
+    "Aarav",
+    "Nisha",
+    "Rehan",
+    "Priya",
+    "Kabir",
+    "Meera",
+    "Student A",
+    "Student B"
+  ],
+  "domains": [
+    "campus-login.example",
+    "scholarship-check.example",
+    "erp-validation.example",
+    "student-support.example",
+    "secure-refund.example"
+  ],
+  "ips": [
+    "192.0.2.44",
+    "198.51.100.72",
+    "203.0.113.18",
+    "203.0.113.44"
+  ],
+  "amounts": [
+    2500,
+    4999,
+    7500,
+    10000
+  ],
+  "times": [
+    "10:43 PM",
+    "11:12 PM",
+    "09:17 AM",
+    "02:31 PM",
+    "11:43 PM"
+  ],
+  "handles": [
+    "@campus_help_26",
+    "@student_grant",
+    "@official_support_26",
+    "@fake_profile_2026"
+  ],
+  "utrs": [
+    "UTR6A8K2194",
+    "UTR9Q3M5521",
+    "UTR2P7X8840",
+    "UTR5N1C7302"
+  ]
+}

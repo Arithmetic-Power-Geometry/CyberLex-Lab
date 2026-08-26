@@ -1,0 +1,1376 @@
+{
+  "0": {
+    "title": "Mission Control",
+    "zone": 0,
+    "concept": "Cyber Law",
+    "tag": "START",
+    "learn_title": "Welcome to CyberLex Lab",
+    "learn": "Cyber Law deals with rights, responsibilities and legal consequences in the digital world. Technology gives us possibilities; Cyber Law asks when those possibilities are permitted, responsible and supported by evidence.",
+    "why": "This lab begins with the principle CAN ≠ MAY. You will learn through simulated incidents, not by memorizing sections first.",
+    "remember": "Technology tells us what is possible. Cyber Law asks what is permissible—and who is responsible.",
+    "author": "Dr. Mohammad Amir Khusru Akhtar, Faculty of Computing & Information Technology, Usha Martin University",
+    "scenario_type": "intro",
+    "questions": [
+      [
+        "Cyber Law is mainly about:",
+        [
+          "Only hacking",
+          "Rights, responsibilities and legal consequences in digital activity",
+          "Only social media"
+        ],
+        1
+      ],
+      [
+        "The phrase CAN ≠ MAY means:",
+        [
+          "Technical capability does not automatically equal permission",
+          "Computers cannot make decisions",
+          "Every technical action is illegal"
+        ],
+        0
+      ],
+      [
+        "In this simulator, incidents are:",
+        [
+          "Real attacks",
+          "Synthetic and isolated",
+          "Connected to student bank accounts"
+        ],
+        1
+      ]
+    ]
+  },
+  "1": {
+    "title": "Browser Revealed",
+    "zone": 1,
+    "concept": "Browser APIs & privacy",
+    "tag": "PRIVACY",
+    "learn_title": "What does your browser reveal?",
+    "learn": "Browsers expose some environment information to web pages and place sensitive capabilities such as precise location behind permissions. A permission decision is only one part of the privacy question.",
+    "why": "After access is granted, questions remain: why is data collected, how is it used, how long is it kept, and who receives it?",
+    "remember": "CAN access → MAY access → HOW may it be used?",
+    "scenario_type": "browser",
+    "questions": [
+      [
+        "Location access is generally:",
+        [
+          "Permission-controlled",
+          "Automatically illegal",
+          "Always invisible"
+        ],
+        0
+      ],
+      [
+        "Granting permission once means:",
+        [
+          "Any future use is automatically acceptable",
+          "The browser may remember the permission, but purpose and responsible use still matter",
+          "The data becomes public"
+        ],
+        1
+      ],
+      [
+        "The main lesson is:",
+        [
+          "JavaScript is dangerous",
+          "Capability, permission and later use are different questions",
+          "Screen size is private banking data"
+        ],
+        1
+      ]
+    ]
+  },
+  "2": {
+    "title": "Permission ≠ Capability",
+    "zone": 1,
+    "concept": "Permissions & data minimization",
+    "tag": "PRIVACY",
+    "learn_title": "Permission should fit the purpose",
+    "learn": "An app may be technically capable of requesting many device permissions. Good decisions ask whether each permission is actually needed for the stated function.",
+    "why": "Consent is meaningful when the request is understandable and proportionate to the purpose.",
+    "remember": "Do not grant five permissions for a one-permission job.",
+    "scenario_type": "permissions",
+    "questions": [
+      [
+        "A QR scanner usually needs:",
+        [
+          "Camera access",
+          "Contacts + microphone + files",
+          "All permissions"
+        ],
+        0
+      ],
+      [
+        "Best privacy habit:",
+        [
+          "Grant only what is needed",
+          "Always allow all",
+          "Never install any app"
+        ],
+        0
+      ],
+      [
+        "Technical capability is:",
+        [
+          "The same as lawful authority",
+          "Different from permission",
+          "Proof of consent"
+        ],
+        1
+      ]
+    ]
+  },
+  "3": {
+    "title": "The Unlocked Phone",
+    "zone": 1,
+    "concept": "Access vs authorization",
+    "tag": "AUTHORIZATION",
+    "learn_title": "Access is not authorization",
+    "learn": "A device being unlocked makes access technically possible. It does not automatically mean the owner has permitted you to read private messages or use the account.",
+    "why": "Cyber Law often turns on authorization, purpose, conduct and context—not merely whether a system was technically accessible.",
+    "remember": "An open door is not an invitation.",
+    "scenario_type": "unlocked_phone",
+    "questions": [
+      [
+        "An unlocked phone means:",
+        [
+          "You are authorized",
+          "Only that access may be technically possible",
+          "The data is public"
+        ],
+        1
+      ],
+      [
+        "Reading private messages without permission raises:",
+        [
+          "Authorization/privacy concerns",
+          "No concern if nothing is deleted",
+          "Only hardware issues"
+        ],
+        0
+      ],
+      [
+        "Best first action:",
+        [
+          "Read quickly",
+          "Leave it and seek permission if needed",
+          "Forward messages to yourself"
+        ],
+        1
+      ]
+    ]
+  },
+  "4": {
+    "title": "Password ≠ Permission",
+    "zone": 1,
+    "concept": "Authentication vs authorization",
+    "tag": "AUTHORIZATION",
+    "learn_title": "Authentication and authorization are different",
+    "learn": "Authentication asks whether credentials are valid. Authorization asks whether the person using them is permitted to perform the action.",
+    "why": "A working password proves that the credential works; it does not prove that you are entitled to use the account.",
+    "remember": "Having the key does not mean you have permission to enter.",
+    "scenario_type": "password",
+    "questions": [
+      [
+        "A working password proves:",
+        [
+          "Authorization",
+          "Authentication of the credential",
+          "Ownership of the account"
+        ],
+        1
+      ],
+      [
+        "Before using another person's account, verify:",
+        [
+          "Only the password",
+          "Authority/permission",
+          "Browser version"
+        ],
+        1
+      ],
+      [
+        "Authentication ≠ authorization is:",
+        [
+          "True",
+          "False",
+          "Only for banks"
+        ],
+        0
+      ]
+    ]
+  },
+  "5": {
+    "title": "OTP: One Number, One Decision",
+    "zone": 1,
+    "concept": "MFA & secret handling",
+    "tag": "AUTHENTICATION",
+    "learn_title": "An OTP is an authorization secret",
+    "learn": "One-time passwords are often used to approve logins or transactions. An unsolicited caller asking for an OTP is a strong warning sign.",
+    "why": "Attackers often exploit urgency and trust rather than technical weaknesses.",
+    "remember": "No genuine urgency should make you surrender an authentication secret.",
+    "scenario_type": "otp",
+    "questions": [
+      [
+        "A caller asks for your OTP to 'cancel fraud'. Best response:",
+        [
+          "Share it",
+          "End call and verify using official bank channel",
+          "Share half"
+        ],
+        1
+      ],
+      [
+        "OTP is commonly used for:",
+        [
+          "Authentication/transaction approval",
+          "Screen brightness",
+          "File compression"
+        ],
+        0
+      ],
+      [
+        "Urgency in a message should make you:",
+        [
+          "Act faster",
+          "Pause and verify",
+          "Ignore every bank message"
+        ],
+        1
+      ]
+    ]
+  },
+  "6": {
+    "title": "Phishing Detective",
+    "zone": 2,
+    "concept": "Phishing & social engineering",
+    "tag": "PHISHING",
+    "learn_title": "Phishing attacks your judgment",
+    "learn": "Phishing messages imitate trusted organizations and create urgency to make you click, disclose credentials or authorize payment.",
+    "why": "The strongest defense is often a pause: inspect sender, domain, context and the requested action.",
+    "remember": "Stop. Inspect. Verify. Then act.",
+    "scenario_type": "phishing",
+    "questions": [
+      [
+        "Strong phishing signal:",
+        [
+          "Unexpected urgency + credential request",
+          "Correct spelling",
+          "A familiar logo"
+        ],
+        0
+      ],
+      [
+        "Best verification method:",
+        [
+          "Reply to the suspicious message",
+          "Independently open the official site/app",
+          "Trust display name"
+        ],
+        1
+      ],
+      [
+        "A familiar logo proves:",
+        [
+          "Identity",
+          "Nothing by itself",
+          "HTTPS"
+        ],
+        1
+      ]
+    ]
+  },
+  "7": {
+    "title": "URL X-Ray",
+    "zone": 2,
+    "concept": "URL anatomy",
+    "tag": "PHISHING",
+    "learn_title": "Read the domain from right to left",
+    "learn": "Attackers can place trusted-looking words inside subdomains or paths. You must identify the actual registrable domain instead of reading only the first familiar name.",
+    "why": "A deceptive URL can look convincing while still pointing to a completely different organization.",
+    "remember": "A trusted word inside a URL does not make the domain trustworthy.",
+    "scenario_type": "url",
+    "questions": [
+      [
+        "In google.com.example.com, the training lesson is that the controlling base domain is closest to:",
+        [
+          "google.com",
+          "example.com",
+          "com.google"
+        ],
+        1
+      ],
+      [
+        "Best habit before login:",
+        [
+          "Check actual domain",
+          "Check only page colors",
+          "Trust the logo"
+        ],
+        0
+      ],
+      [
+        "URL X-Ray teaches:",
+        [
+          "Domain identity",
+          "Password cracking",
+          "Malware coding"
+        ],
+        0
+      ]
+    ]
+  },
+  "8": {
+    "title": "HTTPS ≠ Genuine",
+    "zone": 2,
+    "concept": "TLS/HTTPS",
+    "tag": "TRUST",
+    "learn_title": "Encryption is not honesty",
+    "learn": "HTTPS helps protect the connection between your browser and the domain shown. It does not prove that the operator, offer or purpose is honest.",
+    "why": "A fraudulent website can also use HTTPS.",
+    "remember": "Secure connection ≠ trustworthy intention.",
+    "scenario_type": "https",
+    "questions": [
+      [
+        "HTTPS mainly protects:",
+        [
+          "Transport connection",
+          "Honesty of every claim",
+          "Price fairness"
+        ],
+        0
+      ],
+      [
+        "A phishing site can use HTTPS:",
+        [
+          "Yes",
+          "No",
+          "Only on mobile"
+        ],
+        0
+      ],
+      [
+        "Before paying, verify:",
+        [
+          "Only padlock",
+          "Domain + independent legitimacy of the request",
+          "Font"
+        ],
+        1
+      ]
+    ]
+  },
+  "9": {
+    "title": "Fake Login Laboratory",
+    "zone": 2,
+    "concept": "Credential-harvesting awareness",
+    "tag": "PHISHING",
+    "learn_title": "Look-alike pages exploit habit",
+    "learn": "A fake login page can visually copy a real service. The critical checks are the actual domain, how you reached the page, and whether the request is expected.",
+    "why": "Never test an unverified page with real credentials.",
+    "remember": "Appearance is easy to copy. Identity must be verified.",
+    "scenario_type": "fake_login",
+    "questions": [
+      [
+        "A perfect visual copy proves:",
+        [
+          "Genuine site",
+          "Nothing about operator identity",
+          "Government approval"
+        ],
+        1
+      ],
+      [
+        "Safe action:",
+        [
+          "Enter password to test",
+          "Close and open official bookmark/site independently",
+          "Enter only username"
+        ],
+        1
+      ],
+      [
+        "Main risk:",
+        [
+          "Credential harvesting",
+          "Screen burn-in",
+          "Slow internet"
+        ],
+        0
+      ]
+    ]
+  },
+  "10": {
+    "title": "Social Engineering Room",
+    "zone": 2,
+    "concept": "Human-factor security",
+    "tag": "HUMAN FACTOR",
+    "learn_title": "The target may be the human, not the machine",
+    "learn": "Social engineering manipulates trust, authority, fear or urgency. Messages may pretend to be from a Dean, bank, friend, HR or support desk.",
+    "why": "Independent verification through a trusted channel breaks the attacker's story.",
+    "remember": "Verify identity outside the message that created the urgency.",
+    "scenario_type": "social_engineering",
+    "questions": [
+      [
+        "'Dean: send OTP urgently' should trigger:",
+        [
+          "Immediate compliance",
+          "Independent verification",
+          "Public posting"
+        ],
+        1
+      ],
+      [
+        "Social engineering primarily exploits:",
+        [
+          "Human judgment",
+          "CPU temperature",
+          "File size"
+        ],
+        0
+      ],
+      [
+        "Best defense:",
+        [
+          "Pause and verify",
+          "Always trust authority names",
+          "Share less than half the password"
+        ],
+        0
+      ]
+    ]
+  },
+  "11": {
+    "title": "Deepfake Courtroom",
+    "zone": 3,
+    "concept": "Synthetic media & consent",
+    "tag": "AI",
+    "learn_title": "AI changes creation, not responsibility",
+    "learn": "Synthetic media can be harmless, deceptive or harmful depending on consent, labeling, impersonation, context and likely harm.",
+    "why": "A short scenario often does not justify an automatic criminal-law conclusion. Good cyber-law reasoning identifies the concerns and the missing facts.",
+    "remember": "AI can create the content; humans remain responsible for how it is used.",
+    "scenario_type": "deepfake",
+    "questions": [
+      [
+        "A clearly labeled consensual parody is generally:",
+        [
+          "Lower risk than deceptive impersonation",
+          "Always a crime",
+          "Always private data"
+        ],
+        0
+      ],
+      [
+        "A realistic fake used to request money raises:",
+        [
+          "Impersonation/fraud concerns",
+          "Only artistic concerns",
+          "No issue if AI-made"
+        ],
+        0
+      ],
+      [
+        "Best legal habit:",
+        [
+          "Declare guilt from one screenshot",
+          "Assess consent, context, harm and evidence",
+          "Ignore synthetic media"
+        ],
+        1
+      ]
+    ]
+  },
+  "12": {
+    "title": "Fake Instagram",
+    "zone": 3,
+    "concept": "Impersonation & identity misuse",
+    "tag": "IDENTITY",
+    "learn_title": "Your identity can be copied without your account being hacked",
+    "learn": "A fake account may reuse your name, photograph and social relationships to deceive others.",
+    "why": "The first response should preserve evidence, contain harm, secure real accounts, warn contacts and report through appropriate channels.",
+    "remember": "Preserve first. Protect next. Report appropriately.",
+    "scenario_type": "fake_social",
+    "questions": [
+      [
+        "First priority after discovering a fake profile:",
+        [
+          "Argue with attacker",
+          "Preserve evidence and contain harm",
+          "Delete your real account"
+        ],
+        1
+      ],
+      [
+        "Useful evidence includes:",
+        [
+          "Profile URL/handle + screenshots + time",
+          "Only your memory",
+          "Favourite post"
+        ],
+        0
+      ],
+      [
+        "If money is lost, response should become:",
+        [
+          "Less urgent",
+          "Prompt financial-fraud reporting + account security",
+          "Only platform reporting"
+        ],
+        1
+      ]
+    ]
+  },
+  "13": {
+    "title": "Cyberbullying Scenario",
+    "zone": 3,
+    "concept": "Online abuse & harm",
+    "tag": "SAFETY",
+    "learn_title": "Digital harm can be repeated and amplified",
+    "learn": "Online harassment can spread quickly, persist through copies and affect real people. Responsible response includes support, evidence preservation and appropriate reporting.",
+    "why": "Retaliation may escalate the situation and destroy useful context.",
+    "remember": "Do not become part of the harm while trying to stop it.",
+    "scenario_type": "cyberbullying",
+    "questions": [
+      [
+        "Best response to repeated abusive group messages:",
+        [
+          "Join the joke",
+          "Preserve, support target, report appropriately",
+          "Delete all evidence immediately"
+        ],
+        1
+      ],
+      [
+        "Why preserve context?",
+        [
+          "It may support reporting/investigation",
+          "To repost it",
+          "Because screenshots are always conclusive"
+        ],
+        0
+      ],
+      [
+        "Cyberbullying can cause:",
+        [
+          "Only online effects",
+          "Real-world harm",
+          "No consequence if anonymous"
+        ],
+        1
+      ]
+    ]
+  },
+  "14": {
+    "title": "Public ≠ Free",
+    "zone": 3,
+    "concept": "Digital ownership",
+    "tag": "COPYRIGHT",
+    "learn_title": "Visible online does not mean ownerless",
+    "learn": "Publicly accessible images, code and text can still be protected by copyright or subject to license conditions.",
+    "why": "Permission to view is different from permission to reuse, modify, redistribute or claim authorship.",
+    "remember": "Accessible ≠ yours.",
+    "scenario_type": "public_free",
+    "questions": [
+      [
+        "A public image with no license is:",
+        [
+          "Automatically free to reuse",
+          "Not automatically free to reuse",
+          "Public domain"
+        ],
+        1
+      ],
+      [
+        "Best practice:",
+        [
+          "Check license/permission",
+          "Remove watermark",
+          "Claim authorship"
+        ],
+        0
+      ],
+      [
+        "Copyright and academic integrity are:",
+        [
+          "The same rule",
+          "Related but distinct issues",
+          "Only for books"
+        ],
+        1
+      ]
+    ]
+  },
+  "15": {
+    "title": "Copy–Paste–Submit",
+    "zone": 3,
+    "concept": "Licensing & plagiarism",
+    "tag": "COPYRIGHT",
+    "learn_title": "Open source is not 'claim as mine'",
+    "learn": "A license may allow reuse under conditions, but academic integrity separately requires honest attribution and compliance with assignment rules.",
+    "why": "Legal permission to reuse code does not automatically make it acceptable to submit as your original work.",
+    "remember": "License answers reuse rights; integrity answers honest authorship.",
+    "scenario_type": "license",
+    "questions": [
+      [
+        "MIT-licensed code may be reusable under its terms, but can you submit it unchanged as your own original work?",
+        [
+          "Yes",
+          "No"
+        ],
+        1
+      ],
+      [
+        "Open source means:",
+        [
+          "No rules",
+          "Use governed by license terms",
+          "No copyright"
+        ],
+        1
+      ],
+      [
+        "Academic plagiarism is:",
+        [
+          "Always identical to copyright infringement",
+          "A separate academic-integrity issue",
+          "Only about images"
+        ],
+        1
+      ]
+    ]
+  },
+  "16": {
+    "title": "Evidence Desk",
+    "zone": 4,
+    "concept": "Digital evidence & context",
+    "tag": "EVIDENCE",
+    "learn_title": "A screenshot is a clue, not the whole case",
+    "learn": "Digital evidence should be interpreted in context: source, timestamp, surrounding messages, metadata, original file and chain of handling can matter.",
+    "why": "One artifact can be genuine yet still misleading if cropped, incomplete or detached from context.",
+    "remember": "Evidence answers questions only when you ask what it actually proves.",
+    "scenario_type": "evidence_desk",
+    "questions": [
+      [
+        "A screenshot alone always proves identity:",
+        [
+          "Yes",
+          "No"
+        ],
+        1
+      ],
+      [
+        "Useful context can include:",
+        [
+          "Original file + time + source + surrounding messages",
+          "Only color",
+          "Only file name"
+        ],
+        0
+      ],
+      [
+        "Good investigator asks:",
+        [
+          "What does this prove and what does it not prove?",
+          "Who should I blame first?",
+          "Can I edit it?"
+        ],
+        0
+      ]
+    ]
+  },
+  "17": {
+    "title": "Metadata Detective",
+    "zone": 4,
+    "concept": "Metadata",
+    "tag": "FORENSICS",
+    "learn_title": "Files carry context beyond visible content",
+    "learn": "Metadata can contain timestamps, dimensions, device labels and other context. But metadata can be missing, stripped, generated or altered.",
+    "why": "A difference between Created and Modified time does not automatically prove malicious tampering.",
+    "remember": "Metadata is evidence, not automatic truth.",
+    "scenario_type": "metadata",
+    "questions": [
+      [
+        "Created and Modified times differ. Does that prove criminal tampering?",
+        [
+          "Yes",
+          "No, not by itself",
+          "Always"
+        ],
+        1
+      ],
+      [
+        "Metadata may be:",
+        [
+          "Missing or altered",
+          "Always perfect",
+          "Legally conclusive"
+        ],
+        0
+      ],
+      [
+        "Best conclusion from one metadata field:",
+        [
+          "Cautious and limited",
+          "Absolute identity",
+          "Automatic guilt"
+        ],
+        0
+      ]
+    ]
+  },
+  "18": {
+    "title": "Hash Witness",
+    "zone": 4,
+    "concept": "SHA-256 & integrity",
+    "tag": "FORENSICS",
+    "learn_title": "Hash = digital fingerprint",
+    "learn": "A cryptographic hash converts data into a fixed-length fingerprint. A tiny change in the input normally produces a very different hash.",
+    "why": "Matching hashes can support integrity checks; a mismatch shows that the compared bytes differ, but not who changed them or why.",
+    "remember": "Hash change proves change—not authorship.",
+    "scenario_type": "hash",
+    "questions": [
+      [
+        "If one character changes, SHA-256 will typically:",
+        [
+          "Remain same",
+          "Change substantially",
+          "Reveal the editor's name"
+        ],
+        1
+      ],
+      [
+        "A hash mismatch proves:",
+        [
+          "Data differs",
+          "Who changed it",
+          "Why it changed"
+        ],
+        0
+      ],
+      [
+        "Hashing is useful for:",
+        [
+          "Integrity checking",
+          "Password sharing",
+          "Domain registration"
+        ],
+        0
+      ]
+    ]
+  },
+  "19": {
+    "title": "IP Address ≠ Person",
+    "zone": 4,
+    "concept": "NAT & attribution",
+    "tag": "ATTRIBUTION",
+    "learn_title": "Network evidence is not automatic identity",
+    "learn": "Multiple devices can share one public IP address through NAT. Attribution may require timestamps, device/session logs and other evidence.",
+    "why": "Choosing a person from one IP address can create a serious attribution error.",
+    "remember": "An IP address can be a clue. It is not a human fingerprint.",
+    "scenario_type": "ip",
+    "questions": [
+      [
+        "Three devices behind NAT can share:",
+        [
+          "One public IP",
+          "One password",
+          "One identity"
+        ],
+        0
+      ],
+      [
+        "IP alone proves human identity:",
+        [
+          "Yes",
+          "No"
+        ],
+        1
+      ],
+      [
+        "Better attribution uses:",
+        [
+          "Multiple correlated evidence sources",
+          "One screenshot",
+          "Guessing"
+        ],
+        0
+      ]
+    ]
+  },
+  "20": {
+    "title": "Delete Button Myth",
+    "zone": 4,
+    "concept": "Data lifecycle",
+    "tag": "DATA",
+    "learn_title": "Deleting from one view is not erasing every copy",
+    "learn": "A message may disappear from your inbox while copies, logs, backups, recipient devices or audit records remain elsewhere.",
+    "why": "Deletion can also remove evidence you may later need.",
+    "remember": "Delete ≠ disappear everywhere.",
+    "scenario_type": "delete",
+    "questions": [
+      [
+        "Deleting a message guarantees every copy is gone:",
+        [
+          "Yes",
+          "No"
+        ],
+        1
+      ],
+      [
+        "Before deleting fraud evidence:",
+        [
+          "Preserve useful details",
+          "Forward publicly",
+          "Edit screenshot"
+        ],
+        0
+      ],
+      [
+        "Data lifecycle can include:",
+        [
+          "Logs/backups/copies",
+          "Only what you see",
+          "Nothing after delete"
+        ],
+        0
+      ]
+    ]
+  },
+  "21": {
+    "title": "UPI Fraud Simulator",
+    "zone": 5,
+    "concept": "Payment fraud & verification",
+    "tag": "FINANCIAL",
+    "learn_title": "Urgency + payment authorization is dangerous",
+    "learn": "Payment scams often pressure users to scan a QR, enter a UPI PIN, reveal an OTP or 'refund' money without independent verification.",
+    "why": "Verify the transaction in your own trusted banking/UPI app and use official support channels.",
+    "remember": "Do not authorize a payment to 'receive' money.",
+    "scenario_type": "upi",
+    "questions": [
+      [
+        "Someone says 'scan QR and enter PIN to receive refund'. Best response:",
+        [
+          "Do it",
+          "Verify independently; do not authorize under pressure",
+          "Share OTP instead"
+        ],
+        1
+      ],
+      [
+        "UPI PIN should be entered when:",
+        [
+          "You knowingly authorize a transaction in your trusted app",
+          "A caller asks",
+          "A random page asks"
+        ],
+        0
+      ],
+      [
+        "Financial scam response should be:",
+        [
+          "Prompt",
+          "Delayed until tomorrow",
+          "Only social-media posting"
+        ],
+        0
+      ]
+    ]
+  },
+  "22": {
+    "title": "₹10,000 Beat the Clock",
+    "zone": 5,
+    "concept": "Incident response",
+    "tag": "INCIDENT",
+    "learn_title": "The first minutes matter",
+    "learn": "After an unauthorized financial transaction, useful actions include preserving transaction details, securing affected accounts, contacting the bank/payment provider and using official cyber-financial-fraud reporting promptly.",
+    "why": "Delay can reduce opportunities for containment or fund tracing.",
+    "remember": "Preserve. Secure. Report promptly.",
+    "scenario_type": "timer",
+    "questions": [
+      [
+        "After unauthorized debit, useful first item to preserve:",
+        [
+          "UTR/transaction ID",
+          "Favourite contact",
+          "Wallpaper"
+        ],
+        0
+      ],
+      [
+        "Best reporting timing:",
+        [
+          "Promptly",
+          "After a week",
+          "Only if attacker replies"
+        ],
+        0
+      ],
+      [
+        "Should you delete the fraud SMS first?",
+        [
+          "Yes",
+          "No—preserve useful evidence first"
+        ],
+        1
+      ]
+    ]
+  },
+  "23": {
+    "title": "1930 Reporting Drill",
+    "zone": 5,
+    "concept": "Incident documentation",
+    "tag": "REPORTING",
+    "learn_title": "A report is stronger when facts are organized",
+    "learn": "For a simulated cyber financial fraud, prepare transaction amount, bank/payment service, transaction ID/UTR, date/time, suspect identifiers and relevant evidence.",
+    "why": "Organized facts reduce confusion when time matters.",
+    "remember": "Evidence prepared before the call saves time during the call.",
+    "scenario_type": "reporting",
+    "questions": [
+      [
+        "Useful financial-fraud reporting detail:",
+        [
+          "UTR",
+          "Favourite colour",
+          "Attendance percentage"
+        ],
+        0
+      ],
+      [
+        "1930 is associated with:",
+        [
+          "Cyber financial-fraud reporting in India",
+          "Weather",
+          "College admissions"
+        ],
+        0
+      ],
+      [
+        "A report should separate:",
+        [
+          "Facts from assumptions",
+          "Fonts from colors",
+          "Nothing"
+        ],
+        0
+      ]
+    ]
+  },
+  "24": {
+    "title": "Complaint Builder",
+    "zone": 5,
+    "concept": "Facts, evidence, inference & allegation",
+    "tag": "REPORTING",
+    "learn_title": "Good complaints separate what happened from what you think happened",
+    "learn": "A factual statement, an observation, an inference and an allegation are not the same thing. Good incident reporting labels them clearly.",
+    "why": "This prevents overclaiming and helps investigators understand what is directly supported by evidence.",
+    "remember": "Facts first. Evidence second. Inference clearly labeled.",
+    "scenario_type": "complaint",
+    "questions": [
+      [
+        "'₹7,500 left my account at 23:41' is best treated as:",
+        [
+          "Fact/observation if supported by record",
+          "Automatic proof Rahul stole it",
+          "Opinion"
+        ],
+        0
+      ],
+      [
+        "'Therefore Rahul operated the account' is:",
+        [
+          "Inference requiring support",
+          "Always fact",
+          "Metadata"
+        ],
+        0
+      ],
+      [
+        "Best complaint style:",
+        [
+          "Chronological facts + evidence + clearly labeled inference",
+          "Accuse first",
+          "Delete evidence"
+        ],
+        0
+      ]
+    ]
+  },
+  "25": {
+    "title": "Incident Response Room",
+    "zone": 5,
+    "concept": "Containment & recovery",
+    "tag": "RESPONSE",
+    "learn_title": "Correct sequence matters",
+    "learn": "Response often involves preserving evidence, containing the incident, changing compromised credentials through trusted channels and reporting appropriately.",
+    "why": "Retaliation and unnecessary deletion can make the situation worse.",
+    "remember": "Preserve → Contain → Secure → Report.",
+    "scenario_type": "response",
+    "questions": [
+      [
+        "Good incident-response action:",
+        [
+          "Preserve evidence",
+          "Retaliate",
+          "Delete everything"
+        ],
+        0
+      ],
+      [
+        "Credential compromise suggests:",
+        [
+          "Change credentials via trusted channel",
+          "Post password publicly",
+          "Ignore"
+        ],
+        0
+      ],
+      [
+        "Retaliation is:",
+        [
+          "Usually not the first response",
+          "Required",
+          "Evidence preservation"
+        ],
+        0
+      ]
+    ]
+  },
+  "26": {
+    "title": "Cyber Law Courtroom",
+    "zone": 6,
+    "concept": "Evidence-based legal reasoning",
+    "tag": "LAW",
+    "learn_title": "The law depends on facts",
+    "learn": "Short digital scenarios are often incomplete. A careful decision distinguishes potentially unlawful conduct, lower-risk conduct and cases where there is not enough information.",
+    "why": "Legal reasoning is strongest when it avoids automatic guilt and identifies missing facts.",
+    "remember": "Not enough information can be the most accurate answer.",
+    "scenario_type": "court",
+    "questions": [
+      [
+        "When facts are incomplete, best option may be:",
+        [
+          "Guess",
+          "Not enough information",
+          "Always illegal"
+        ],
+        1
+      ],
+      [
+        "Good legal reasoning identifies:",
+        [
+          "Facts, evidence and missing information",
+          "Only emotion",
+          "Only technical possibility"
+        ],
+        0
+      ],
+      [
+        "Technical capability alone proves legality:",
+        [
+          "Yes",
+          "No"
+        ],
+        1
+      ]
+    ]
+  },
+  "27": {
+    "title": "Red Team vs Law Team",
+    "zone": 6,
+    "concept": "Authorized security testing",
+    "tag": "BOUNDARIES",
+    "learn_title": "Security testing requires scope",
+    "learn": "A technical weakness may be testable, but safe security testing requires explicit authorization, approved targets, scope, time window and data-handling rules.",
+    "why": "Technical curiosity does not create legal authority.",
+    "remember": "Can test ≠ may test.",
+    "scenario_type": "redlaw",
+    "questions": [
+      [
+        "Before security testing, verify:",
+        [
+          "Written authorization and scope",
+          "Only vulnerability severity",
+          "Internet speed"
+        ],
+        0
+      ],
+      [
+        "Production target outside scope should be:",
+        [
+          "Tested anyway",
+          "Left alone / clarified with authority",
+          "Shared publicly"
+        ],
+        1
+      ],
+      [
+        "Red Team vs Law Team teaches:",
+        [
+          "Authorization boundaries",
+          "Malware writing",
+          "Password theft"
+        ],
+        0
+      ]
+    ]
+  },
+  "28": {
+    "title": "Screenshot ≠ Whole Truth",
+    "zone": 6,
+    "concept": "Evidence reliability",
+    "tag": "LAW",
+    "learn_title": "Context changes interpretation",
+    "learn": "A screenshot can be authentic yet incomplete. Full chat, timestamp, original file, metadata and source account may change what the screenshot appears to show.",
+    "why": "Evidence quality depends on provenance, context and what is missing.",
+    "remember": "Before judging the screenshot, inspect the case around it.",
+    "scenario_type": "screenshot_truth",
+    "questions": [
+      [
+        "A cropped screenshot can be:",
+        [
+          "Useful but incomplete",
+          "Always fake",
+          "Always conclusive"
+        ],
+        0
+      ],
+      [
+        "Best next step:",
+        [
+          "Inspect context",
+          "Publish immediately",
+          "Edit it"
+        ],
+        0
+      ],
+      [
+        "Evidence reliability depends on:",
+        [
+          "Context/provenance",
+          "Only resolution",
+          "Only color"
+        ],
+        0
+      ]
+    ]
+  },
+  "29": {
+    "title": "Who Did It?",
+    "zone": 6,
+    "concept": "Log correlation",
+    "tag": "INVESTIGATION",
+    "learn_title": "Reconstruct events before naming a person",
+    "learn": "Login logs, session IDs, device events, messages and network records can be correlated to build a timeline. Correlation increases confidence but does not remove the need for careful inference.",
+    "why": "A strong investigator separates evidence from identity claims.",
+    "remember": "Reconstruct first. Attribute second.",
+    "scenario_type": "investigation",
+    "questions": [
+      [
+        "Best investigation method:",
+        [
+          "Correlate multiple logs",
+          "Pick first suspect",
+          "Trust one IP"
+        ],
+        0
+      ],
+      [
+        "A timeline helps:",
+        [
+          "Reconstruct sequence of events",
+          "Crack passwords",
+          "Prove motive automatically"
+        ],
+        0
+      ],
+      [
+        "Evidence and inference should be:",
+        [
+          "Separated",
+          "Mixed together",
+          "Ignored"
+        ],
+        0
+      ]
+    ]
+  },
+  "30": {
+    "title": "Can Attack ≠ May Attack",
+    "zone": 6,
+    "concept": "Technical possibility & permission",
+    "tag": "BOUNDARIES",
+    "learn_title": "Capability is not authority",
+    "learn": "A student may discover a technical possibility such as an endpoint, parameter or response behavior. The next step is not exploitation—it is checking authorization and scope.",
+    "why": "This is the central boundary between safe learning and unauthorized activity.",
+    "remember": "The more capable you become, the more important authorization becomes.",
+    "scenario_type": "scope",
+    "questions": [
+      [
+        "Discovering a possible weakness gives you permission to exploit it:",
+        [
+          "Yes",
+          "No"
+        ],
+        1
+      ],
+      [
+        "Correct next question:",
+        [
+          "Am I authorized and within scope?",
+          "How far can I push it?",
+          "Can I hide it?"
+        ],
+        0
+      ],
+      [
+        "Security skill should increase:",
+        [
+          "Responsibility",
+          "Impunity",
+          "Anonymity"
+        ],
+        0
+      ]
+    ]
+  },
+  "31": {
+    "title": "Final Cyber Mystery",
+    "zone": 7,
+    "concept": "Integrated cyber investigation",
+    "tag": "CAPSTONE",
+    "learn_title": "CASE ZERO",
+    "learn": "A scholarship phishing email leads to a look-alike login, account session change, fake social profile, AI voice message, a friend's payment, deleted messages and a shared campus IP.",
+    "why": "You must reconstruct the timeline, distinguish proof from inference, preserve evidence, secure accounts and choose appropriate reporting actions.",
+    "remember": "The final skill is not memorization—it is disciplined judgment.",
+    "scenario_type": "mystery",
+    "questions": [
+      [
+        "Shared campus IP proves which person acted:",
+        [
+          "Yes",
+          "No"
+        ],
+        1
+      ],
+      [
+        "After a friend loses money, include:",
+        [
+          "Prompt financial-fraud reporting + transaction evidence",
+          "Only platform report",
+          "Delete messages"
+        ],
+        0
+      ],
+      [
+        "Best final-case habit:",
+        [
+          "Separate proven facts from inference",
+          "Assume identity from username",
+          "Retaliate"
+        ],
+        0
+      ]
+    ]
+  },
+  "32": {
+    "title": "Cyber Citizen Final Assessment",
+    "zone": 7,
+    "concept": "Mastery & reflection",
+    "tag": "FINAL",
+    "learn_title": "Prove what you learned",
+    "learn": "The final assessment checks whether you can apply the core CyberLex principles across privacy, authorization, phishing, evidence, AI, attribution and incident response.",
+    "why": "Completion is based on demonstrated learning, not clicking through screens.",
+    "remember": "You learned Cyber Law through hands-on investigation.",
+    "scenario_type": "final_assessment",
+    "questions": [
+      [
+        "CAN ≠ MAY means:",
+        [
+          "Capability does not equal permission",
+          "Computers are illegal",
+          "Every click is evidence"
+        ],
+        0
+      ],
+      [
+        "Secure connection ≠ trustworthy intention refers to:",
+        [
+          "HTTPS",
+          "Hashing",
+          "NAT"
+        ],
+        0
+      ],
+      [
+        "A working password proves authorization:",
+        [
+          "Yes",
+          "No"
+        ],
+        1
+      ],
+      [
+        "Hash mismatch proves:",
+        [
+          "Compared bytes differ",
+          "Who changed them",
+          "Motive"
+        ],
+        0
+      ],
+      [
+        "An IP address alone proves a person:",
+        [
+          "Yes",
+          "No"
+        ],
+        1
+      ],
+      [
+        "First response to fake account:",
+        [
+          "Preserve evidence + contain/report",
+          "Argue",
+          "Delete own account"
+        ],
+        0
+      ],
+      [
+        "UPI fraud response should preserve:",
+        [
+          "Transaction/UTR details",
+          "Only screenshot of home screen",
+          "Nothing"
+        ],
+        0
+      ],
+      [
+        "Not enough information can be:",
+        [
+          "A valid legal judgment",
+          "Never acceptable",
+          "A technical bug"
+        ],
+        0
+      ],
+      [
+        "Open-source license and plagiarism are:",
+        [
+          "The same",
+          "Distinct issues",
+          "Unrelated to authorship"
+        ],
+        1
+      ],
+      [
+        "Before security testing:",
+        [
+          "Get authorization and scope",
+          "Hide identity",
+          "Test production"
+        ],
+        0
+      ]
+    ]
+  }
+}

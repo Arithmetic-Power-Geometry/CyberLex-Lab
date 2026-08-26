@@ -1,0 +1,9 @@
+{
+  "name": "CyberLex Lab",
+  "short_name": "CyberLex",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#06111f",
+  "theme_color": "#071524",
+  "description": "Interactive Cyber Law, Security & Digital Evidence Simulator"
+}

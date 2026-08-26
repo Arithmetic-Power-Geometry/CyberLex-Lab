@@ -1,0 +1,8 @@
+
+@media(max-width:760px){
+ #topbar{padding:10px 12px}.brand small{display:none}.brand{min-width:0}.hud .metric:nth-child(n+3){display:none}
+ #app{padding:20px 12px 104px}.grid.two,.grid.three,.formrow{grid-template-columns:1fr}
+ .hero{min-height:72vh}.card{padding:16px}.evidence-board{grid-template-columns:repeat(2,1fr)}
+ .bottom-nav{width:calc(100% - 20px);justify-content:space-around}.bottom-nav button{font-size:.75rem;padding:8px 6px}
+ .stagebar{margin-left:-4px;margin-right:-4px}.phone{min-height:460px}
+}

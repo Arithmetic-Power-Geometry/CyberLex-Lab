@@ -1,0 +1,34 @@
+{
+  "notice": "CyberLex Lab is an educational simulator, not legal advice. Exact legal outcomes depend on facts, current law, jurisdiction and competent authorities.",
+  "principles": [
+    {
+      "name": "Authorization",
+      "text": "Technical access does not automatically establish permission or authority."
+    },
+    {
+      "name": "Privacy",
+      "text": "Permission to access data and the later collection, use, retention and sharing of data are distinct questions."
+    },
+    {
+      "name": "Evidence",
+      "text": "Digital artifacts should be interpreted with context, provenance and limits."
+    },
+    {
+      "name": "Attribution",
+      "text": "A technical identifier such as an IP address is evidence, not automatic proof of a human actor."
+    },
+    {
+      "name": "Incident response",
+      "text": "Preserve useful evidence, contain harm, secure accounts and report through appropriate official channels."
+    }
+  ],
+  "india": [
+    "Information Technology Act, 2000 (as amended over time)",
+    "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (as amended)",
+    "Digital Personal Data Protection Act, 2023 and Digital Personal Data Protection Rules, 2025 (phased commencement)",
+    "Bharatiya Nyaya Sanhita, 2023 and other applicable laws depending on facts",
+    "Copyright Act, 1957 for copyright-related issues",
+    "National Cyber Crime Reporting Portal: cybercrime.gov.in",
+    "Cyber financial-fraud helpline: 1930"
+  ]
+}
