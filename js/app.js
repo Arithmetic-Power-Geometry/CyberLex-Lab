@@ -264,12 +264,55 @@ function victory(){
 }
 function home(){
  renderNav("home");
- app.innerHTML=`<div class="hero"><div class="kicker">CYBERLEX LAB</div><h1>Your Digital Life Is Now a Case File.</h1><h2>Interactive Cyber Law, Security & Digital Evidence Simulator</h2>
+
+ app.innerHTML=`<div class="hero">
+ <div class="kicker">CYBERLEX LAB</div>
+
+ <h1>Your Digital Life Is Now a Case File.</h1>
+
+ <h2>Interactive Cyber Law, Security & Digital Evidence Simulator</h2>
+
  <p>LEARN → EXPERIENCE → DECIDE → INVESTIGATE → DISCOVER LAW → TEST → SCORE → UNLOCK</p>
- <div class="actions"><button class="btn primary" id="resume">${state.completed.length?"RESUME MISSION":"START MISSION"}</button><button class="btn secondary" id="mapGo">VIEW MISSION MAP</button>${mode==="instructor"?`<button class="btn secondary" id="instGo">INSTRUCTOR PANEL</button>`:""}</div>
- <p><b>Dr. Mohammad Amir Khusru Akhtar</b><br>Faculty of Computing & Information Technology<br>Usha Martin University</p><p class="tiny">Copyright (C) 2026 Mohammad Amir Khusru Akhtar</p></div>`;
- document.querySelector("#resume").onclick=()=>missionView(state.currentMission);document.querySelector("#mapGo").onclick=mapView;
- if(mode==="instructor")document.querySelector("#instGo").onclick=instructorView;
+
+ <div class="actions">
+   <button class="btn primary" id="resume">
+     ${state.completed.length?"RESUME MISSION":"START MISSION"}
+   </button>
+
+   <button class="btn secondary" id="mapGo">
+     VIEW MISSION MAP
+   </button>
+
+   ${mode==="instructor"
+     ? `<button class="btn secondary" id="instGo">INSTRUCTOR PANEL</button>`
+     : ""}
+ </div>
+
+ <p class="tiny" style="margin-top:18px;">
+   <a href="https://doi.org/10.5281/zenodo.22113998"
+      target="_blank"
+      rel="noopener noreferrer">
+      📘 <b>USER GUIDE</b>
+   </a>
+ </p>
+
+ <p>
+   <b>Dr. Mohammad Amir Khusru Akhtar</b><br>
+   Faculty of Computing & Information Technology<br>
+   Usha Martin University
+ </p>
+
+ <p class="tiny">
+   Copyright (C) 2026 Mohammad Amir Khusru Akhtar
+ </p>
+
+ </div>`;
+
+ document.querySelector("#resume").onclick=()=>missionView(state.currentMission);
+ document.querySelector("#mapGo").onclick=mapView;
+
+ if(mode==="instructor")
+   document.querySelector("#instGo").onclick=instructorView;
 }
 function instructorView(){
  renderNav("home");app.innerHTML=instructorPanel(state);
